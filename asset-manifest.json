@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Timer/static/css/main.05e7dcf4.css",
+    "main.js": "/Timer/static/js/main.fefd98b5.js",
+    "static/js/787.8e9e615b.chunk.js": "/Timer/static/js/787.8e9e615b.chunk.js",
+    "index.html": "/Timer/index.html",
+    "main.05e7dcf4.css.map": "/Timer/static/css/main.05e7dcf4.css.map",
+    "main.fefd98b5.js.map": "/Timer/static/js/main.fefd98b5.js.map",
+    "787.8e9e615b.chunk.js.map": "/Timer/static/js/787.8e9e615b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05e7dcf4.css",
+    "static/js/main.fefd98b5.js"
+  ]
+}
