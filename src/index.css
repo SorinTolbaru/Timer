@@ -1,0 +1,82 @@
+body {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.display {
+  margin-top: -40px;
+  display: flex;
+  position: absolute;
+  font-size: 80px;
+  background-color: lightblue;
+  box-shadow: 0px 0px 10px lightblue;
+  border-radius: 10px;
+  width: 280px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(87, 88, 88);
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-circle {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-color: rgb(165, 164, 164);
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+.pause-restart, .pause-restart-button, .start, .start-button {
+  margin-top: -1px;
+  margin-left: -1px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 80px;
+  font-size: 15px;
+  width: 80px;
+  height: 80px;
+  background-color: lightslategray;
+  border-radius: 80px;
+  margin-bottom: 80px;
+}
+
+.pause-restart-button:hover, .start-button:hover {
+  background-color: rgb(87, 175, 179);
+}
+
+@media only screen and (max-width: 600px), (max-height: 600px) {
+  .main-circle {
+    width: 350px;
+    height: 350px;
+  }
+  .pause-restart, .pause-restart-button, .start, .start-button {
+    text-align: center;
+    line-height: 80px;
+    font-size: 12px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 60px;
+  }
+  .display {
+    font-size: 50px;
+    text-align: center;
+    width: 200px;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+}/*# sourceMappingURL=index.css.map */
